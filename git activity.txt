@@ -1,0 +1,85 @@
+git ativity :
+
+$ git branch branchA
+
+$ git branch branchB
+
+$ git branch branchC
+
+$ echo first from branchA > A.txt
+
+$ echo first from branchB > B.txt
+
+$ echo second from branchB > B1.txt
+
+$ echo first from branchC > C.txt
+
+$ echo second from branchC > C1.txt
+
+$ echo third from branchC > C2.txt
+
+$ git status
+
+$ git branch -l
+
+$ git checkout branchA
+
+$ git status
+
+$ git add A.txt
+
+$ git commit -m "forming in branch A"
+
+$ git status
+
+$ git checkout master
+
+$ git status
+
+$ git ls-files
+
+$ git checkout branchA
+
+$ git ls-files
+
+$ git checkout branchB
+
+$ git add B.txt
+
+$ git add B1.txt
+
+$ git commit -m "forming in branchB"
+
+$ git ls-files
+
+$ git checkout branchC
+
+$ git status
+
+$ git add C.txt
+
+$ git add C1.txt
+
+$ git add C2 .txt
+
+$ git commit -m "forming in branchC"
+
+$ git status
+
+$ git ls-files
+
+$ git checkout master
+
+$ git ls-files
+
+$ git merge branchA
+
+$ git ls-files
+
+$ git merge branchB
+
+$ git ls-files
+
+$ git merge branchA
+
+$ git ls-files
